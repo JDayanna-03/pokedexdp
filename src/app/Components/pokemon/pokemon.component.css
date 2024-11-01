@@ -1,0 +1,62 @@
+.button_a {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(132, 139, 0);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  bottom: -205px;
+  right: 628px;
+  z-index: 1;
+}
+.button_s {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(132, 139, 0);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  bottom: -205px;
+  right: 573px;
+  z-index: 1;
+}
+
+.button_girar {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(139, 30, 0);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  bottom: -232px;
+  right: -165px;
+  z-index: 1;
+}
+
+.button_a:hover {
+  background-color: #ff5f5f; /* Cambia el color al pasar el mouse */
+}
+
+.button_s:hover {
+  background-color: #ff5f5f; /* Cambia el color al pasar el mouse */
+}
+
+.pokemon-image{
+  width: 200px;
+  height: auto;
+}

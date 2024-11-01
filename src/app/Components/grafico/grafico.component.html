@@ -1,0 +1,10 @@
+<div class="health-container">
+    <h2>{{ pokemonName | titlecase }}</h2>
+    <h3>Estadísticas del Pokémon:</h3>
+    <p>Altura: {{ pokemonHeight }} decímetros</p>
+    <p>Peso: {{ pokemonWeight }} gramos</p>
+    <p>Vida: <span *ngFor="let i of [].constructor(vida); let j = index">{{ j < 6 ? '❤️' : '' }}</span></p>
+    <p>Ataque: <span *ngFor="let i of [].constructor(ataque);">{{ '🗡️' }}</span></p> 
+    <p>Defensa: <span *ngFor="let i of [].constructor(defensa);">{{ '🛡️' }}</span></p> 
+  </div>
+  
